@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo-style.css">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header" aria-label="Main site header">
         <div class="topbar">
             <a class="site-title" href="index.html">NEON GAME LAB</a>
             <button type="button" class="menu-button" aria-controls="menu" aria-expanded="false" aria-label="Menu">
@@ -36,10 +37,95 @@
         </div>
     </div>
     <main id="main">
+        <div class="section section-intro">
+            <div class="intro container">
+                <p class="dropcap">A simple overview of how beginners can start creating indie games.</p>
+            </div>
+        </div>
+
+        <div class="section section-features">
+            <section class="features container grid">
+                <h2>3 Simple Steps</h2>
+                <div class="feature">
+                    <h3>Step 1</h3>
+                    <p>Pick a beginner‑friendly engine.</p>
+                </div>
+                <div class="feature">
+                    <h3>Step 2</h3>
+                    <p>Learn the basics through short tutorials.</p>
+                </div>
+                <div class="feature">
+                    <h3>Step 3</h3>
+                    <p>Build a tiny game to practice.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-cards">
+            <section class="cards container grid">
+                <h2>Featured Tutorials</h2>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Coding screen, pixel art, UI grid">
+                        <div class="info">
+                            <h3>Godot Quickstart</h3>
+                            <p>Quick tutorials for Godot, Twine, and Bitsy.</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Twine tutorial">
+                        <div class="info">
+                            <h3>Twine Basics</h3>
+                            <p>Learn interactive storytelling with Twine.</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Learn More</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Bitsy tutorial">
+                        <div class="info">
+                            <h3>Bitsy for Beginners</h3>
+                            <p>Make tiny games with Bitsy—no coding needed!</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Learn More</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-boxes">
+            <section class="boxes container grid">
+                <h2>Play My Games Preview</h2>
+                <div class="box">Game 1</div>
+                <div class="box">Game 2</div>
+                <div class="box">Game 3</div>
+                <div class="box">Game 4</div>
+                <div class="box">Game 5</div>
+                <div class="box">Game 6</div>
+            </section>
+        </div>
     </main>
-    <footer class="site-footer">
-        <!-- add site-wide footer content here -->
-    </footer>
+    <div class="section section-footer">
+        <footer class="site-footer container">
+            <p>Created by Htet Arkar Kyaw, revised 2025. All HTML and CSS not otherwise copyrighted is licensed under <a
+                    href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+            <p>This site is for educational purposes and uses open resources and inspiration from the web.</p>
+            <p>this <a href="#">is a link</a></p>
+        </footer>
+    </div>
 
     <!-- Leave this as the last thing before the closing /body tag -->
     <!-- jQuery via CDN with modern dynamic fallback -->

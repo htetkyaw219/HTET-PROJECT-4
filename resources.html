@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo-style.css">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header" aria-label="Main site header">
         <div class="topbar">
             <a class="site-title" href="index.html">NEON GAME LAB</a>
             <button type="button" class="menu-button" aria-controls="menu" aria-expanded="false" aria-label="Menu">
@@ -25,7 +26,7 @@
             <ul id="menu" class="menu">
                 <li><a href="beginner-guide.html">BEGINNER GUIDE</a></li>
                 <li><a href="tutorials.html">TUTORIALS</a></li>
-                <li><a href="resources.html" aria-current="page">RESOURCES</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
                 <li><a href="play-my-games.html">PLAY MY GAMES</a></li>
             </ul>
         </nav>
@@ -36,10 +37,123 @@
         </div>
     </div>
     <main id="main">
+        <div class="section section-intro">
+            <div class="intro container">
+                <p class="dropcap">A collection of the best free and open resources for indie game creators. Find tools,
+                    assets, communities, and more!</p>
+            </div>
+        </div>
+
+        <div class="section section-features">
+            <section class="features container grid">
+                <h2>Resource Categories</h2>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Game engines">
+                    <p><strong>Engines &amp; Tools:</strong> <a href="https://godotengine.org/">Godot</a>, <a
+                            href="https://twinery.org/">Twine</a>, <a href="https://ledoux.itch.io/bitsy">Bitsy</a>, <a
+                            href="https://unity.com/">Unity</a></p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103971/pexels-photo-1103971.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Art assets">
+                    <p><strong>Art &amp; Audio:</strong> <a href="https://kenney.nl/assets">Kenney Assets</a>, <a
+                            href="https://opengameart.org/">OpenGameArt</a>, <a
+                            href="https://freesound.org/">Freesound</a></p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103972/pexels-photo-1103972.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Communities">
+                    <p><strong>Communities:</strong> <a href="https://itch.io/community">itch.io Community</a>, <a
+                            href="https://forum.gamemaker.io/">GameMaker Forum</a>, <a
+                            href="https://dev.to/t/game">dev.to #game</a></p>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-cards">
+            <section class="cards container grid">
+                <h2>Featured Resource Links</h2>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Godot Engine">
+                        <div class="info">
+                            <h3>Godot Engine</h3>
+                            <p>Free, open source, and beginner-friendly 2D/3D game engine. <a
+                                    href="https://godotengine.org/">Visit site</a></p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="https://godotengine.org/" target="_blank"><span class="button">Learn More</span></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Twine">
+                        <div class="info">
+                            <h3>Twine</h3>
+                            <p>Open-source tool for telling interactive, nonlinear stories. <a
+                                    href="https://twinery.org/">Visit site</a></p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="https://twinery.org/" target="_blank"><span class="button">Learn More</span></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Bitsy">
+                        <div class="info">
+                            <h3>Bitsy</h3>
+                            <p>Make tiny games with Bitsy—no coding needed! <a href="https://ledoux.itch.io/bitsy">Visit
+                                    site</a></p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="https://ledoux.itch.io/bitsy" target="_blank"><span class="button">Learn
+                                More</span></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181674/pexels-photo-1181674.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Kenney Assets">
+                        <div class="info">
+                            <h3>Kenney Assets</h3>
+                            <p>Thousands of free game assets for your projects. <a href="https://kenney.nl/assets">Visit
+                                    site</a></p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <a href="https://kenney.nl/assets" target="_blank"><span class="button">Learn More</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-boxes">
+            <section class="boxes container grid">
+                <h2>Other Useful Links</h2>
+                <div class="box"><a href="https://opengameart.org/" target="_blank">OpenGameArt.org</a></div>
+                <div class="box"><a href="https://freesound.org/" target="_blank">Freesound.org</a></div>
+                <div class="box"><a href="https://itch.io/tools" target="_blank">itch.io Tools</a></div>
+                <div class="box"><a href="https://dev.to/t/game" target="_blank">dev.to #game</a></div>
+                <div class="box"><a href="https://forum.gamemaker.io/" target="_blank">GameMaker Forum</a></div>
+                <div class="box"><a href="https://unity.com/" target="_blank">Unity</a></div>
+            </section>
+        </div>
     </main>
-    <footer class="site-footer">
-        <!-- add site-wide footer content here -->
-    </footer>
+    <div class="section section-footer">
+        <footer class="site-footer container">
+            <p>Created by Htet Arkar Kyaw, revised 2025. All HTML and CSS not otherwise copyrighted is licensed under <a
+                    href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+            <p>This site is for educational purposes and uses open resources and inspiration from the web.</p>
+            <p>this <a href="#">is a link</a></p>
+        </footer>
+    </div>
 
     <!-- Leave this as the last thing before the closing /body tag -->
     <!-- jQuery via CDN with modern dynamic fallback -->

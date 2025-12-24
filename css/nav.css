@@ -19,8 +19,10 @@ NAVIGATION
 }
 
 /* Header as a vertical stack: topbar, then nav */
-header {
-    background: var(--clr-nav-background);
+header,
+.topbar,
+nav[aria-label="Primary"] {
+    background: #00FF00 !important;
     color: var(--clr-nav);
 }
 
@@ -143,7 +145,7 @@ nav {
 }
 
 /* Desktop: horizontal layout, inline logo & nav */
-@media (min-width: 1240px) {
+@media (min-width: 900px) {
 
     /* Header becomes horizontal flex container */
     header {

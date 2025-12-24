@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demo-style.css">
 </head>
 
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header" aria-label="Main site header">
         <div class="topbar">
             <a class="site-title" href="index.html">NEON GAME LAB</a>
             <button type="button" class="menu-button" aria-controls="menu" aria-expanded="false" aria-label="Menu">
@@ -26,7 +27,7 @@
                 <li><a href="beginner-guide.html">BEGINNER GUIDE</a></li>
                 <li><a href="tutorials.html">TUTORIALS</a></li>
                 <li><a href="resources.html">RESOURCES</a></li>
-                <li><a href="play-my-games.html" aria-current="page">PLAY MY GAMES</a></li>
+                <li><a href="play-my-games.html">PLAY MY GAMES</a></li>
             </ul>
         </nav>
     </header>
@@ -36,10 +37,100 @@
         </div>
     </div>
     <main id="main">
+        <div class="section section-intro">
+            <div class="intro container">
+                <p class="dropcap">Try out my indie games created with passion and neon-bright energy. Each game is
+                    unique and playable right in your browser!</p>
+            </div>
+        </div>
+
+        <div class="section section-features">
+            <section class="features container grid">
+                <h2>Game Collection Highlights</h2>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Puzzle games">
+                    <p>Explore puzzle and strategy games that challenge your mind with creative mechanics.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103971/pexels-photo-1103971.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Adventure games">
+                    <p>Embark on adventure games with immersive worlds and compelling stories.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://images.pexels.com/photos/1103972/pexels-photo-1103972.jpeg?auto=compress&w=200&h=200&fit=crop"
+                        alt="Arcade games">
+                    <p>Play fast-paced arcade games for quick fun and high score challenges.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-cards">
+            <section class="cards container grid">
+                <h2>Featured Games</h2>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Neon Maze Game">
+                        <div class="info">
+                            <h3>Neon Maze</h3>
+                            <p>Navigate through an endless maze with glowing neon walls. Can you beat your best time?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Play Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181672/pexels-photo-1181672.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Story Quest Game">
+                        <div class="info">
+                            <h3>Story Quest</h3>
+                            <p>An interactive narrative adventure where your choices determine the outcome.</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Play Now</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="description">
+                        <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&w=400&h=200&fit=crop"
+                            alt="Pixel Jumper Game">
+                        <div class="info">
+                            <h3>Pixel Jumper</h3>
+                            <p>A fast-paced platformer with pixel art style. Jump, dodge, and collect coins!</p>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <button type="button">Play Now</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="section section-boxes">
+            <section class="boxes container grid">
+                <h2>More Games</h2>
+                <div class="box">Color Swap</div>
+                <div class="box">Rhythm Rush</div>
+                <div class="box">Puzzle Paradise</div>
+                <div class="box">Sky Flyer</div>
+                <div class="box">Mystery Box</div>
+                <div class="box">Neon Blast</div>
+            </section>
+        </div>
     </main>
-    <footer class="site-footer">
-        <!-- add site-wide footer content here -->
-    </footer>
+    <div class="section section-footer">
+        <footer class="site-footer container">
+            <p>Created by Htet Arkar Kyaw, revised 2025. All HTML and CSS not otherwise copyrighted is licensed under <a
+                    href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+            <p>This site is for educational purposes and uses open resources and inspiration from the web.</p>
+            <p>this <a href="#">is a link</a></p>
+        </footer>
+    </div>
 
     <!-- Leave this as the last thing before the closing /body tag -->
     <!-- jQuery via CDN with modern dynamic fallback -->
