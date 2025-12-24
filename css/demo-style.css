@@ -230,7 +230,7 @@ p.dropcap::first-letter {
 
 
 footer {
-    border-top: 3px solid #999;
+    border-top: 3px solid #0A0A0A;
     padding-top: var(--spacing-md)
 }
 

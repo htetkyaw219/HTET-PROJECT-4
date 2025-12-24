@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Basic responsive page starter with semantic HTML, modern CSS, and accessibility-friendly patterns.">
+    <title>TUTORIALS</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="topbar">
+            <a class="site-title" href="index.html">NEON GAME LAB</a>
+            <button type="button" class="menu-button" aria-controls="menu" aria-expanded="false" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav aria-label="Primary">
+            <ul id="menu" class="menu">
+                <li><a href="beginner-guide.html">BEGINNER GUIDE</a></li>
+                <li><a href="tutorials.html" aria-current="page">TUTORIALS</a></li>
+                <li><a href="resources.html">RESOURCES</a></li>
+                <li><a href="play-my-games.html">PLAY MY GAMES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section section-header">
+        <div class="container">
+            <h1>TUTORIALS</h1>
+        </div>
+    </div>
+    <main id="main">
+    </main>
+    <footer class="site-footer">
+        <!-- add site-wide footer content here -->
+    </footer>
+
+    <!-- Leave this as the last thing before the closing /body tag -->
+    <!-- jQuery via CDN with modern dynamic fallback -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" defer></script>
+    <script>
+        if (!window.jQuery) {
+            const fallback = document.createElement('script');
+            fallback.src = 'js/vendor/jquery-3.7.1.min.js';
+            fallback.defer = true;
+            document.head.appendChild(fallback);
+        }
+    </script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
