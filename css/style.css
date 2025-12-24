@@ -123,6 +123,10 @@
         padding: 2.5rem 0 1.5rem 0;
     }
 
+    .section-header h1 {
+        font-family: 'Diplomate SC', serif;
+    }
+
     .section-header .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -131,6 +135,13 @@
 
     .section {
         padding: 2.5rem 0;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Rubik Maps', sans-serif;
     }
 
     .container {
@@ -145,3 +156,8 @@
 /* You can copy and paste that CSS into your main style.css or keep it as a separate file and link both in your HTML files. */
 
 /* ====== Add your CSS here ======== */
+
+.credits-section {
+    margin-top: 2rem;
+    text-align: center;
+}

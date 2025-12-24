@@ -38,6 +38,7 @@ nav[aria-label="Primary"] {
 .logo {
     color: var(--clr-nav);
     text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', cursive;
     /* You will need to add the font styling (size, color etc) here */
 }
 
@@ -90,6 +91,7 @@ nav {
 .menu a {
     color: #0A0A0A;
     transition: color 0.2s;
+    font-family: 'Lato', sans-serif;
 }
 
 .menu a:hover,
@@ -203,4 +205,8 @@ nav {
         background: var(--clr-nav-hover-bg);
         color: var(--clr-nav-hover);
     }
+}
+
+.site-title {
+    font-family: 'Rubik Doodle Shadow', cursive;
 }
